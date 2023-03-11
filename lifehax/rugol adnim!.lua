@@ -12,7 +12,7 @@ if not game:IsLoaded() then
 	notLoaded:Destroy()
 end
 
-ver = ' 1.3'
+ver = ' 6.9'
 
 Players = game:GetService("Players")
 
@@ -143,7 +143,7 @@ PopupText_5 = Instance.new("TextLabel")
 Exit_4 = Instance.new("TextButton")
 ExitImage_5 = Instance.new("ImageLabel")
 parentofall = Instance.new("ScreenGui")
-parentofall.Name = "RGK Admin"
+parentofall.Name = "RUGOL aaddnim"
 
 PARENT = nil
 if game:GetService("CoreGui"):FindFirstChild('RobloxGui') then
