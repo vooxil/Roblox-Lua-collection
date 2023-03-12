@@ -1,12 +1,17 @@
 -- this version has working playlist & currently playing
 --[[
 https://developer.spotify.com/console/get-several-tracks/
-user-read-playback-state
+
+playlist-read-private
 user-read-playback-position
-user-modify-playback-state
-user-read-recently-played
-user-follow-modify
+user-read-playback-state
 user-read-currently-playing
+user-read-private
+user-read-recently-played
+user-library-read
+user-follow-modify
+user-modify-playback-state
+
 ]]
 -- ctts Matteo❤#6537
 local Players = game:GetService("Players")
